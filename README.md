@@ -16,12 +16,12 @@ Repository to study the following Lenguaje C Topic: Sorting Algorithms and Big O
 File Name|Task Name|Task Description
 ---|---|---
 [0-bubble_sort.c](https://https://github.com/danielcinome/sorting_algorithms/0-bubble_sort.c)|0. Bubble sort|Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
-[1-insertion_sort_list.c](https://https://github.com/danielcinome/sorting_algorithms/1-insertion_sort_list.c)|Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
-[2-selection_sort.c](https://https://github.com/danielcinome/sorting_algorithms/2-selection_sort.c)|Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
+[1-insertion_sort_list.c](https://https://github.com/danielcinome/sorting_algorithms/1-insertion_sort_list.c)|1. Insertion sort|Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+[2-selection_sort.c](https://https://github.com/danielcinome/sorting_algorithms/2-selection_sort.c)|2. Selection sort|Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
 
 
 ---
 ## Author
 
-Daniel Angarita Chinome [@danielchinome](https://twitter.com/danielchinome)
-Juan David Restrepo Z. [@jdrestre](https://twitter.com/jdrestre)
+- Daniel Angarita Chinome [@danielchinome](https://twitter.com/danielchinome)
+- Juan David Restrepo Z. [@jdrestre](https://twitter.com/jdrestre)
