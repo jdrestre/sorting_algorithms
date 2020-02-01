@@ -10,3 +10,9 @@ Repository to study the following Lenguaje C Topic: Sorting Algorithms and Big O
 - What is the Big O notation, and how to evaluate the time complexity of an algorithm
 - How to select the best sorting algorithm for a given input
 - What is a stable sorting algorithm
+
+## Task Project
+---
+File Name|Task Name|Task Description
+---|---|---
+[0-bubble_sort.c](https://https://github.com/danielcinome/sorting_algorithms/0-bubble_sort.c)|0. Bubble sort|Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
