@@ -18,7 +18,9 @@ File Name|Task Name|Task Description
 [0-bubble_sort.c](https://https://github.com/danielcinome/sorting_algorithms/0-bubble_sort.c)|0. Bubble sort|Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
 [0-O](https://https://github.com/danielcinome/sorting_algorithms/0-O)|0. Bubble sort|Big O notations of the time complexity of the Bubble sort algorithm
 [1-insertion_sort_list.c](https://https://github.com/danielcinome/sorting_algorithms/1-insertion_sort_list.c)|1. Insertion sort|Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+[1-O](https://https://github.com/danielcinome/sorting_algorithms/1-O)|1. Insertion sort|Big O notations of the time complexity of the Insertion sort algorithm
 [2-selection_sort.c](https://https://github.com/danielcinome/sorting_algorithms/2-selection_sort.c)|2. Selection sort|Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
+[2-O](https://https://github.com/danielcinome/sorting_algorithms/2-O)|2. Selection sort|Big O notations of the time complexity of the Selection sort algorithm
 
 
 ---
