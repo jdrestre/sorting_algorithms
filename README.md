@@ -15,14 +15,14 @@ Repository to study the following Lenguaje C Topic: Sorting Algorithms and Big O
 ---
 File Name|Task Name|Task Description
 ---|---|---
-[0-bubble_sort.c](https://https://github.com/danielcinome/sorting_algorithms/0-bubble_sort.c)|0. Bubble sort|Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
-[0-O](https://https://github.com/danielcinome/sorting_algorithms/0-O)|0. Bubble sort|Big O notations of the time complexity of the Bubble sort algorithm
-[1-insertion_sort_list.c](https://https://github.com/danielcinome/sorting_algorithms/1-insertion_sort_list.c)|1. Insertion sort|Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
-[1-O](https://https://github.com/danielcinome/sorting_algorithms/1-O)|1. Insertion sort|Big O notations of the time complexity of the Insertion sort algorithm
-[2-selection_sort.c](https://https://github.com/danielcinome/sorting_algorithms/2-selection_sort.c)|2. Selection sort|Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
-[2-O](https://https://github.com/danielcinome/sorting_algorithms/2-O)|2. Selection sort|Big O notations of the time complexity of the Selection sort algorithm
-[3-quick_sort.c](https://https://github.com/danielcinome/sorting_algorithms/3-quick_sort.c)|3. Quick sort|Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
-[3-O](https://https://github.com/danielcinome/sorting_algorithms/3-O)|3. Quick sort|Big O notations of the time complexity of the Quick sort algorithm
+[0-bubble_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/0-bubble_sort.c)|0. Bubble sort|Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
+[0-O](https://github.com/danielcinome/sorting_algorithms/blob/master/0-O)|0. Bubble sort|Big O notations of the time complexity of the Bubble sort algorithm
+[1-insertion_sort_list.c](https://github.com/danielcinome/sorting_algorithms/blob/master/1-insertion_sort_list.c)|1. Insertion sort|Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+[1-O](https://github.com/danielcinome/sorting_algorithms/blob/master/1-O)|1. Insertion sort|Big O notations of the time complexity of the Insertion sort algorithm
+[2-selection_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/2-selection_sort.c)|2. Selection sort|Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
+[2-O](https://github.com/danielcinome/sorting_algorithms/2-O)|2. Selection sort|Big O notations of the time complexity of the Selection sort algorithm
+[3-quick_sort.c](https://github.com/danielcinome/sorting_algorithms/3-quick_sort.c)|3. Quick sort|Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+[3-O](https://github.com/danielcinome/sorting_algorithms/3-O)|3. Quick sort|Big O notations of the time complexity of the Quick sort algorithm
 
 ---
 ## Author
