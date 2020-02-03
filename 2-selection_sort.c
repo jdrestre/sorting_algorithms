@@ -23,10 +23,12 @@ void selection_sort(int *array, size_t size)
 				flag = 1;
 			}
 		}
-		array[indx] = array[i];
-		array[i] = val;
 		if (flag == 1)
+		{
+			array[indx] = array[i];
+			array[i] = val;
 			print_array(array, size);
+		}
 		flag = 0;
 	}
 }
