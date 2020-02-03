@@ -21,7 +21,8 @@ File Name|Task Name|Task Description
 [1-O](https://https://github.com/danielcinome/sorting_algorithms/1-O)|1. Insertion sort|Big O notations of the time complexity of the Insertion sort algorithm
 [2-selection_sort.c](https://https://github.com/danielcinome/sorting_algorithms/2-selection_sort.c)|2. Selection sort|Write a function that sorts an array of integers in ascending order using the Selection sort algorithm
 [2-O](https://https://github.com/danielcinome/sorting_algorithms/2-O)|2. Selection sort|Big O notations of the time complexity of the Selection sort algorithm
-
+[3-quick_sort.c](https://https://github.com/danielcinome/sorting_algorithms/3-quick_sort.c)|3. Quick sort|Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+[3-O](https://https://github.com/danielcinome/sorting_algorithms/3-O)|3. Quick sort|Big O notations of the time complexity of the Quick sort algorithm
 
 ---
 ## Author
