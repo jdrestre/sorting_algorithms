@@ -10,7 +10,7 @@ void shell_sort(int *array, size_t size)
 	size_t intv = 0, i, j;
 	int temp = 0;
 
-	if (array == NULL || *array == '\0' || size < 2)
+	if (array == NULL || size < 2)
 		return;
 
 	while (intv < (size / 3))
@@ -23,7 +23,8 @@ void shell_sort(int *array, size_t size)
 		for (i = intv; i < size - 1; i++)
 		{
 			temp = array[i];
-			for (j = i; j >= intv && array[j - intv] > temp; j -= intv)
+			for (j = i; j >= intv && array[j - intv] > temp;
+			     j -= intv)
 			{
 				array[j] = array[j - intv];
 			}
