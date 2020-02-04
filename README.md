@@ -23,6 +23,8 @@ File Name|Task Name|Task Description
 [2-O](https://github.com/danielcinome/sorting_algorithms/blob/master/2-O)|2. Selection sort|Big O notations of the time complexity of the Selection sort algorithm
 [3-quick_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/3-quick_sort.c)|3. Quick sort|Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
 [3-O](https://github.com/danielcinome/sorting_algorithms/blob/master/3-O)|3. Quick sort|Big O notations of the time complexity of the Quick sort algorithm
+[100-shell_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/100-shell_sort.c)|4. Shell sort - Knuth Sequence|Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
+
 
 ---
 ## Author
