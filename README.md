@@ -24,6 +24,8 @@ File Name|Task Name|Task Description
 [3-quick_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/3-quick_sort.c)|3. Quick sort|Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
 [3-O](https://github.com/danielcinome/sorting_algorithms/blob/master/3-O)|3. Quick sort|Big O notations of the time complexity of the Quick sort algorithm
 [100-shell_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/100-shell_sort.c)|4. Shell sort - Knuth Sequence|Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
+[102-counting_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/102-counting_sort.c)|6. Counting sort|Write a function that sorts an array of integers in ascending order using the Counting sort algorithm
+[102-O](https://github.com/danielcinome/sorting_algorithms/blob/master/102-O)|6. Counting sort|Big O notations of the time complexity of the Counting sort algorithm
 
 
 ---
