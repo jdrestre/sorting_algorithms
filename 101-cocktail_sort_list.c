@@ -13,19 +13,32 @@ void cocktail_sort_list(listint_t **list)
 	if (list == NULL)
 		return;
 	head = *list;
-	while (state < 3)
+	while (state == 1)
 	{
 		while (head->next != NULL)
 		{
+			if (head->n > head->next->n)
+			{
+                state = 1;
+                temp = head->next;
+                if (head->prev != NULL)
+                    head->prev->next = temp;
+                if (temp->next != NULL)
+                    temp->next->prev = head;
+                temp->prev = head->prev;
+                head->next = temp->next;
+                head->prev = temp;
+                temp->next = head;
+                }
             head = head->next;
         }
 		print_list(*list);
-		state++;
+		state = 0;
 		while (head->prev != NULL)
 		{
 			if (head->prev->n > head->n)
 			{
-				
+				state = 1;
 				temp = head->prev;
 				if (temp->prev != NULL)
 					temp->prev->next = head;
