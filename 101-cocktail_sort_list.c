@@ -1,6 +1,41 @@
 #include "sort.h"
 
 /**
+* swap_next - swap in next for sorts a doubly linked list
+* @list : double linked list
+* @return: return head
+*/
+
+listint_t *swap_next(listint_t **list)
+{
+	listint_t *temp, *head;
+
+	head = *list;
+	while (head->next != NULL)
+	{
+		if (head->n > head->next->n)
+		{
+			temp = head->next;
+			if (head->prev != NULL)
+				head->prev->next = temp;
+			if (temp->next != NULL)
+				temp->next->prev = head;
+			temp->prev = head->prev;
+			head->next = temp->next;
+			head->prev = temp;
+			temp->next = head;
+			head = temp->next;
+			print_list(*list);
+		}
+		else
+		{
+			head = head->next;
+		}
+	}
+	return (head);
+}
+
+/**
 * cocktail_sort_list - sorts a doubly linked list in ascending order
 * @list : dobly linked list
 */
@@ -15,24 +50,7 @@ void cocktail_sort_list(listint_t **list)
 	head = *list;
 	while (state == 1)
 	{
-		while (head->next != NULL)
-		{
-			if (head->n > head->next->n)
-			{
-                state = 1;
-                temp = head->next;
-                if (head->prev != NULL)
-                    head->prev->next = temp;
-                if (temp->next != NULL)
-                    temp->next->prev = head;
-                temp->prev = head->prev;
-                head->next = temp->next;
-                head->prev = temp;
-                temp->next = head;
-                }
-            head = head->next;
-        }
-		print_list(*list);
+		head = swap_next(&head);
 		state = 0;
 		while (head->prev != NULL)
 		{
@@ -48,12 +66,13 @@ void cocktail_sort_list(listint_t **list)
 				temp->next = head->next;
 				temp->prev = head;
 				head->next = temp;
+				head = temp->prev;
+				if (head->prev == NULL)
+					*list = head;
+				print_list(*list);
 			}
-			head = temp;
-			head = head->prev;
-			if (head->prev == NULL)
-				*list = head;
-			print_list(*list);
+			else
+				head = head->prev;
 		}
 	}
 }
