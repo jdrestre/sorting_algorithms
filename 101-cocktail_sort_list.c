@@ -2,10 +2,9 @@
 
 /**
 * swap_next - swap in next for sorts a doubly linked list
-* @list : double linked list
-* @return: return head
+* @list : doubly linked list
+* Return: return head
 */
-
 listint_t *swap_next(listint_t **list)
 {
 	listint_t *temp, *head;
