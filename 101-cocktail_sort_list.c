@@ -44,7 +44,7 @@ void cocktail_sort_list(listint_t **list)
 	listint_t *temp, *head;
 	int state = 1;
 
-	if (list == NULL)
+	if (list == NULL || *list == NULL)
 		return;
 	head = *list;
 	while (state == 1)
