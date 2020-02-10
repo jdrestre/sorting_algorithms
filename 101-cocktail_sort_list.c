@@ -24,6 +24,12 @@ listint_t *swap_next(listint_t **list)
 			head->prev = temp;
 			temp->next = head;
 			head = temp->next;
+			if (temp->prev == NULL)
+			{
+				*list = temp;
+				head = temp;
+				break;
+			}
 			print_list(*list);
 		}
 		else
@@ -47,11 +53,14 @@ void cocktail_sort_list(listint_t **list)
 	if (list == NULL)
 		return;
 	head = *list;
-	if (head->next == NULL)
-		return;
 	while (state == 1)
 	{
 		head = swap_next(&head);
+		if (head->prev == NULL)
+		{
+			*list = head;
+			print_list(*list);
+		}
 		state = 0;
 		while (head->prev != NULL)
 		{
