@@ -8,6 +8,7 @@
 listint_t *swap_next(listint_t **list)
 {
 	listint_t *temp, *head;
+	int print = 1;
 
 	head = *list;
 	while (head->next != NULL)
@@ -25,12 +26,15 @@ listint_t *swap_next(listint_t **list)
 			temp->next = head;
 			head = temp->next;
 			print_list(*list);
+			print = 0;
 		}
 		else
 		{
 			head = head->next;
 		}
 	}
+	if (print == 1)
+		print_list(*list);
 	return (head);
 }
 
