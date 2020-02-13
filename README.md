@@ -25,7 +25,7 @@ File Name|Task Name|Task Description
 [3-O](https://github.com/danielcinome/sorting_algorithms/blob/master/3-O)|3. Quick sort|Big O notations of the time complexity of the Quick sort algorithm
 [100-shell_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/100-shell_sort.c)|4. Shell sort - Knuth Sequence|Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
 [101-cocktail_sort_list.c](https://github.com/danielcinome/sorting_algorithms/blob/master/101-cocktail_sort_list.c)|5. Cocktail shaker sort|Write a function that sorts a doubly linked list of integers in ascending order using the Cocktail shaker sort algorithm
-[101-O](https://github.com/danielcinome/sorting_algorithms/blob/master/101-O)||5. Cocktail shaker sort|Big O notations of the time complexity of the Cocktail sort
+[101-O](https://github.com/danielcinome/sorting_algorithms/blob/master/101-O)|5. Cocktail shaker sort|Big O notations of the time complexity of the Cocktail sort
 [102-counting_sort.c](https://github.com/danielcinome/sorting_algorithms/blob/master/102-counting_sort.c)|6. Counting sort|Write a function that sorts an array of integers in ascending order using the Counting sort algorithm
 [102-O](https://github.com/danielcinome/sorting_algorithms/blob/master/102-O)|6. Counting sort|Big O notations of the time complexity of the Counting sort algorithm
 
